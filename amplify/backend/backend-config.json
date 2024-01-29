@@ -24,5 +24,31 @@
       "providerPlugin": "awscloudformation",
       "service": "Cognito"
     }
+  },
+  "custom": {
+    "lambdawatch": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn",
+            "Region",
+            "LambdaExecutionRole",
+            "LambdaExecutionRoleArn"
+          ],
+          "category": "function",
+          "resourceName": "takenihtest180817f3b"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "customCDK"
+    }
+  },
+  "function": {
+    "takenihtest180817f3b": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
   }
 }

@@ -14,6 +14,15 @@
     "categories": {
       "auth": {
         "takenihtest1cca74524": {}
+      },
+      "function": {
+        "takenihtest180817f3b": {
+          "deploymentBucketName": "amplify-takenihtest1-staging-24548-deployment",
+          "s3Key": "amplify-builds/takenihtest180817f3b-7a664e414b637a2b476d-build.zip"
+        }
+      },
+      "custom": {
+        "lambdawatch": {}
       }
     }
   }
